@@ -1,0 +1,57 @@
+11/19/2018: Started Assignment-1.10
+11/19/2018: Added README, CHANGELOG, and Makefile
+11/19/2018: Added menu.cpp
+11/19/2018: Implemented main menu screen
+11/19/2018: Implemented menu selection for main menu
+11/19/2018: Added menu_new_game() to menu.cpp
+11/19/2018: Added colors.h and .cpp
+11/19/2018: Implemented core of new game menu
+11/19/2018: Added tile.h and tile.cpp
+11/19/2018: Added tile class in tile.h
+11/20/2018: Added map.h and .cpp
+11/20/2018: Added map class to map.h
+11/20/2018: Added tile_output() to tile class for output
+11/20/2018: Added skirmish.h and .cpp
+11/20/2018: Added initialize_game() to skirmish.h
+11/20/2018: Added entity.h and .cpp
+11/20/2018: Added entity superclass and building and unit subclasses
+11/20/2018: Added civilization.h and .cpp
+11/20/2018: Added civilization class
+11/20/2018: Added bonus.h and .cpp
+11/20/2018: Added bonus class
+11/20/2018: Added player.h and .cpp
+11/20/2018: Added player class
+11/20/2018: Added building_templates.h and .cpp
+11/20/2018: Added templates for buildings
+11/21/2018: Added game_main() and player_turn() to skirmish.cpp
+11/21/2018: Updated add_building() and remove_building() of map class to modify player resources
+11/21/2018: Added human_turn() to skirmish.cpp
+11/21/2018: Added in game cursor movement
+11/21/2018: Added unit_templates.h and .cpp
+11/21/2018: Implemented unit templates and factory
+11/21/2018: Added starting units during map creation
+11/21/2018: Updated add and remove unit to apply population changes
+11/22/2018: Added random civ selection
+11/22/2018: Added entity_commmand(), unit_command(), and building_command() to skirmish.cpp
+11/22/2018: Added unit_move() to skirmish.cpp
+11/22/2018: Added unit commands.h and .cpp
+11/22/2018: Moved unit_move() to unit_commands
+11/22/2018: Moved update_tile() to unit_commands
+11/22/2018: Implemented disband unit command
+11/22/2018: Added unit_construct() to unit_commands
+11/22/2018: Implemented unit construct command
+11/23/2018: Added resource_output() to player class
+11/23/2018: Added unit_melee() to unit_commands
+11/23/2018: Moved update_tile_info() to tile class
+11/23/2018: Added combat.h and .cpp
+11/23/2018: Added combat() and get_distance() to combat.cpp
+11/23/2018: Added unit_ranged() to unit_commands.cpp
+11/23/2018: Added line_of_sight() to map
+11/24/2018: Added unit_garrison()
+11/24/2018: Added unit_ungarrison()
+11/24/2018: Added unit_info()
+11/25/2018: Added technology.h and .cpp
+11/25/2018: Added building_commands.h and .cpp
+11/25/2018: Added building_recruit(), building_research(), building_attack(), building_ungarrison(), and building_info() to building_commands
+11/26/2018: Added apply_bonus() to map class
+11/26/2018: Added update_los() and update_los_entity() to map class
